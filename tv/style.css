@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    font-family: sans-serif;
+    transition: all 0.5 each-in-out;
+}
+body{
+    background: #000;
+}
+
+.header{
+    background: rgb(54, 52, 52);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+
+}
+.header h1{
+    color:yellow;
+    font-size: 40px;
+    position:relative;
+    left:-200px;
+
+}
+.header h1 span{
+    color: #fff;
+}
+.header ul{
+    display: flex;
+    flex-direction: row;
+    font-weight: 900;
+    font-size: 18px;
+    list-style: none;
+    color: #fff;
+
+
+}
+.header ul li{
+    margin:10px;
+    color:#ffff;
+    position:relative;
+    right: -150px;
+    top:-10px;
+}
+.header ul li svg{
+    width:30px;
+    height:30px;
+    color:yellow;
+
+    
+
+
+}
+
+
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:10px auto 10px;
+    max-width: 90%;
+    gap:3px;
+    background: #0000;
+}
+.card
+{
+    width:200px;
+    padding:6px;
+    margin:30px auto 20px;
+    border:3px black solid;
+    background: black;
+}
+.title{
+     background: yellow;
+     text-align: center;
+     font-family: Georgia;
+     font-size: 12px;
+     font-weight: 800;
+     padding:3px;
+     
+     }
+.row1 img{
+    height:250px;
+    width:200px;
+
+}
+#tv1
+{
+    color:red;
+}
+.info{
+    color:#fff;
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:3px;
+}
+#year
+{
+    color:yellow;
+    font-size: 15px;
+    font-weight: 900;
+    padding:3px;
+    background: #3b3b3b;
+    margin-top: 3px;
+    display:flex;
+    flex-direction: column;
+}
